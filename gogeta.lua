@@ -62,6 +62,9 @@ if boss then
         boss:GetPivot().Position + Vector3.new(0, -5, 0)
     )
 else
+    queue_on_teleport([[
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/virrrus67-ui/DBR/main/gogeta.lua"))()
+    ]])
     loadstring(game:HttpGet(
         "https://raw.githubusercontent.com/Cesare0328/my-scripts/refs/heads/main/CachedServerhop.lua"
     ))()
