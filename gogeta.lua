@@ -52,7 +52,7 @@ local function GetBoss(name)
     end
 end
 
-local boss = GetBoss("Piccolo")
+local boss = GetBoss("Gogeta")
 
 if boss then
     Transform()
