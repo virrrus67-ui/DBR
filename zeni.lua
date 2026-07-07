@@ -114,7 +114,7 @@ end
 
 table.insert(Connections, Client.OnTeleport:Connect(function()
     queue_on_teleport([[
-        loadstring(game:HttpGet(''))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/virrrus67-ui/DBR/main/zeni.lua"))()
     ]])
 end))
 
