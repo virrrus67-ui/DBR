@@ -158,6 +158,6 @@ while task.wait() do
     end
   
     fireproximityprompt(CenterPedestial.Attachment.ProximityPrompt)
-    Network:FireServer('SelectWish', 'Zeni')
+    Network:FireServer('SelectWish', 'ZeniWish')
     task.wait(5)
 end
